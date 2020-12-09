@@ -33,10 +33,10 @@
 Clone o repositório:
 
 ````
-git clone https://github.com/Lucaslimasz/clone-picpay-ReactNative.git
+git clone https://github.com/Lucaslimasz/instaclone-native.git
 ````
 
-Para baixar o zip: https://github.com/Lucaslimasz/clone-picpay-ReactNative/archive/master.zip
+Para baixar o zip: https://github.com/Lucaslimasz/instaclone-native/archive/master.zip
 
 ### 💻 Executando o projeto 🚀
 
@@ -44,8 +44,12 @@ Para baixar o zip: https://github.com/Lucaslimasz/clone-picpay-ReactNative/archi
 
 ````
 # Para instalar as dependências
-yarn install
+yarn ou npm install
+
+#Rodar uma fakeAPI
+yarn json-server server.json -d 1000 -w
 
 # Para startar o projeto utilize
-yarn ios
+yarn ios ou yarn android
+
 ````
